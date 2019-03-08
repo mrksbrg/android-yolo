@@ -20,6 +20,9 @@ android {
     aaptOptions {
         noCompress 'pb'
     }
+    lintOptions {
+        checkReleaseBuilds false
+    }
 }
 
 dependencies {
